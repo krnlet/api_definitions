@@ -12,4 +12,5 @@ To start, you'll need do the next steps:
         6. Install the spanish spacy (depending to the lenguage):
            python -m spacy download es_core_news_sm
         7. Run the api: FLASK_APP=app.py flask run
+        8. Go to http://127.0.0.1:5000 
         
