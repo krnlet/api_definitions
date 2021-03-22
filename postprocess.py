@@ -135,7 +135,9 @@ def delate_pattern_2(anotador):
 	for i in anotador:
 		#print( i, i.split(' ') )
 		#pos_tagger = CoreNLPParser('http://localhost:9003', tagtype='pos')
-		pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/', tagtype='pos')
+		#https://corenlp.run/
+		#https://corenlp-tool.lynx-project.eu/
+		pos_tagger = CoreNLPParser('https://corenlp.run/', tagtype='pos')
 		tag=pos_tagger.tag(i.split(' '))
 		total=total+1
 		joini=i
